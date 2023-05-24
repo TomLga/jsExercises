@@ -1,0 +1,32 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    background-color: rgba(0, 255, 255, 0.366);
+    height: fit-content;
+    padding: 20px;
+    /* display: flex; */
+    
+    align-items: center;
+
+}
+label{
+    background-color: rgba(0, 128, 0, 0.658);
+    color: white;
+    font-weight: bolder;
+    padding: ;
+}
+input{
+    margin: 5px;
+}
+#op-btn{
+    margin-left: 15px;
+}
+#display{
+    width: 100px;
+    margin-left: 53%;
+
+}
