@@ -49,25 +49,27 @@ var: The variable declared with `var` is accessible throughout the entire functi
 
 <!-- Variable scoping: where variables can be accessed only when that specific function is called, it's only specific to that block of code. -->
 </div>
+<!-- question 3 -->
+<!-- <div class="container">-->
 
-<div class="container">
-<div>
-    <label for="Number1">Number 1:</label>
-    <input type="number">
-</div>
-<div>
-    <label  for="operator">operator:</label>
-    <input id="op-btn" type="number">
-</div>
-<div>
-    <label for="Number1">Number 2:</label>
-    <input type="number">
-</div>
-<div>
-    <button id="display">Display</button>
-</div>
+ 
+<div class="container"> 
+  <form>
+    <label for="numb1">Number 1:</label>
+    <input class="input-user" type="number" id="numb1" />
+    
+    <label for="numb2">Number 2:</label>
+    <input class="input-user" type="number" id="numb2" />
+    
+    <label for="operation">Operation:</label>
+    <input class="input-user" type="text" id="operation" />
+    
+    <button type="button" onclick="calculate()">Calculate</button>
 
-
+    <div class="input-display" id="resultBox" class="result-box">
+   </form>    
+    
+    <label id="lblResult"></label>
 
 </div>
 
