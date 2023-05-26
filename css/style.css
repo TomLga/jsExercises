@@ -3,42 +3,45 @@
     padding: 0;
     box-sizing: 0;
    
+    background-color: #baa1a1;
     
 }
 .container{
-    background-color: #db6a6a;
     margin-top: 90px;
     width: 700px;
-    
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    ma
+    
 }
 
 form {
+    width: 450px;
+    background: #1de4cd;
+    font-size: 30px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #d9bfbf;
-    font-size: 30px;
-    width: 450px;
 }
 .input-user{
     width:400px;
     height: 60px;
+
     font-size: 30px;
     background-color: #859b9e25;
     
-  }
-  .input-user:hover{
+}
+.input-user:hover{
     background-color: rgb(247, 247, 247);
-  }
+}
 button{
     padding: 9px;
     margin-top: 8px;
+    background-color: rgb(205, 184, 184);
+    
+
 }
 button:hover{
+    transform: translateX(9px);
     
 }
 
@@ -46,7 +49,7 @@ button:hover{
     border: 1px solid #2e2c2c;
     padding: 10px;
     margin-top: 10px;
- }
+}
 .input-display{
     background-color:rgb(230, 226, 220);
 
